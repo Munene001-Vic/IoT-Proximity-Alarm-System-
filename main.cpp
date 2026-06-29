@@ -1,19 +1,3 @@
-/**
- * Proximity Alarm with Cartoon OLED Display
- * ------------------------------------------
- * Passive buzzer siren + HC-SR04 ultrasonic sensor
- * + SSD1306 128x64 OLED with cartoon face expressions.
- *
- * Wiring:
- *   HC-SR04 TRIG   → Pin 9
- *   HC-SR04 ECHO   → Pin 10
- *   Passive Buzzer → Pin 8 (+ leg), GND (- leg)
- *   OLED SDA       → A4 (Uno)
- *   OLED SCL       → A5 (Uno)
- *   OLED VCC       → 3.3V or 5V
- *   OLED GND       → GND
- */
-
 #include <Arduino.h>
 #include <Wire.h>
 #include <Adafruit_GFX.h>
